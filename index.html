@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kitab kalam</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- Navigation Menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">Kitab kalam</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#categories-section"
+                >Categories</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#about">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="container my-5 bg-light py-5">
+      <div id="introduction" class="mb-5 text-center">
+        <h1 class="text-dark">Welcome to Kitab kalam</h1>
+        <p class="lead text-muted">
+          Your teacher to achieve your goals!
+        </p>
+      </div>
+
+      <div id="featured" class="row">
+        <h2 class="text-center text-dark mb-4">Featured Courses</h2>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="./ielts.png"
+              class="card-img-top"
+              alt="Resource 1 Image"
+              style="width: 100%; height: 200px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">IELTS</h5>
+              <p class="card-text">
+                IELTS is meant for people who want to give exam on a paper based format. If you are a good reader IELTS is for you.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="./toefl.png"
+              style="width: 100%; height: 200px"
+              class="card-img-top"
+              alt="Resource 2 Image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">TOEFL</h5>
+              <p class="card-text">
+                TOEFL is meant for students who want to study in the USA. Everything is done on computers.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="pte.jpg"
+              style="width: 100%; height: 200px"
+              class="card-img-top"
+              alt="Resource 3 Image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">PTE</h5>
+              <p class="card-text">
+                Your Australian dream is fulfilled by this course. Easy and convienient course for a beginner in the language.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories-section" class="container my-5 bg-info py-5">
+      <div id="categories" class="mb-5 text-center">
+        <h2 class="text-dark">Categories</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card bg-light">
+              <div class="card-body">
+                <h5 class="card-title">PTE</h5>
+                <p class="card-text text-dark">
+                  The Pearson Test of English (PTE) is a computer-based English language proficiency test for non-native English speakers. It is widely accepted for study, work, and migration purposes, particularly in English-speaking countries.
+                </p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-light">
+              <div class="card-body">
+                <h5 class="card-title">TOEFL</h5>
+                <p class="card-text text-dark">
+                  The Test of English as a Foreign Language (TOEFL) is a standardized test designed to measure the English language proficiency of non-native speakers. It is often used as a requirement for admission to English-speaking universities, scholarships, or immigration processes.
+                </p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-light">
+              <div class="card-body">
+                <h5 class="card-title">IELTS</h5>
+                <p class="card-text text-dark">
+                  The International English Language Testing System (IELTS) is a globally recognized English proficiency test for non-native speakers. It is commonly used for academic, professional, and immigration purposes.
+                </p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Categories Section -->
+
+    <!-- About Section -->
+    <section id="about" class="container my-5 bg-light text-dark py-5">
+      <div id="mission" class="mb-5 text-center text-dark">
+      </div>
+
+      <div id="contact" class="mb-5 text-center text-dark">
+        <h2 class="text-dark">Contact Us</h2>
+        <p class="text-dark">Email: info@kitabkalam.com</p>
+        <p class="text-dark">Phone: +97755544554</p>
+      </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

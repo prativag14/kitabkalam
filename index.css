@@ -1,0 +1,46 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFFFF0;
+}
+
+.navbar {
+  background-color: #2F4F4F !important;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+.nav-link {
+  color: white !important;
+}
+
+#home {
+  background-color: #B0E0E6 !important;
+  padding: 50px 0;
+}
+
+#categories-section {
+  background-color: #B0E0E6 !important;
+  padding: 50px 0;
+}
+
+#about {
+  background-color: #B0E0E6 !important;
+  padding: 50px 0;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
